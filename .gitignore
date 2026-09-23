@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Logs de Selenium / Geckodriver / Chromedriver
+*.log
+geckodriver.log
+chromedriver.log

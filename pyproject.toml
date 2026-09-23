@@ -1,0 +1,20 @@
+[project]
+name = "farmacia-scrapper"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "CesarJCR",email = "168479669+CesarJCR@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests (>=2.34.2,<3.0.0)",
+    "beautifulsoup4 (>=4.15.0,<5.0.0)",
+    "python-dotenv (>=1.2.3,<2.0.0)",
+    "selenium (>=4.49.0,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
